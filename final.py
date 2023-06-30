@@ -1,8 +1,8 @@
 ######################### Necessary Packages ####################
 from sentence_transformers import SentenceTransformer, util
 import speech_recognition as sr
-import simpleaudio as sa
-# from playsound import playsound
+# import simpleaudio as sa
+from playsound import playsound
 import json
 import os
 from multiprocessing import Process
